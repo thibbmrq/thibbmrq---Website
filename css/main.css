@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+header li {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+}
+
+header li a {
+    display: block;
+    padding: 20px;
+}
+
+header li a:hover {
+    background-color: azure;
+    color: black;
+}
+
+header li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+}
